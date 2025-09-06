@@ -1,60 +1,105 @@
-Banking System using JDBC and MySQL
+*** Banking System using JDBC and MySQL***
+---
+***1. Project Overview***
 
-The Banking System is a Java-based application designed to manage banking operations efficiently by connecting with a MySQL database. It provides functionalities to register users, create accounts, debit money, credit money, transfer money, and check balance. This system is console-based and demonstrates CRUD (Create, Read, Update, Delete) operations using JDBC (Java Database Connectivity).
+The Banking System is a Java-based console application designed to manage core banking operations. It connects to a MySQL database using JDBC (Java Database Connectivity) and provides secure and user-friendly banking functionalities.
 
-Key Highlights
+This system supports:
 
-Built using Java SE
+User registration
 
-Database: MySQL
+Login
 
-Supports auto-generated account numbers (with prefix BMS)
+Account creation
 
-Uses both Statement and PreparedStatement for database operations
+Debit & Credit transactions
 
-Implements transaction management (commit and rollback) for secure operations
+Money transfer
 
-User-friendly menu-driven console interface
+Balance inquiry
 
-2. Prerequisite
-Technical Knowledge
+It demonstrates the practical implementation of CRUD (Create, Read, Update, Delete) operations.
+---
+***2. Key Features***
 
-Java Programming (OOP concepts, Exception Handling, Loops, Conditionals)
+User Registration & Login with authentication.
 
-JDBC for database connectivity
+Account Management – Create new bank accounts linked to email.
 
-SQL (DDL, DML operations)
+Money Transactions:
 
-Basic understanding of transaction management
+Debit money
 
-Software/Tools
+Credit money
+
+Transfer money between accounts
+
+Balance Inquiry with security PIN verification.
+
+Secure Transactions using JDBC transactions (commit/rollback).
+
+Auto-generated Account Numbers with custom prefix.
+
+Menu-driven Console Interface for ease of use.
+---
+***3. Technology Stack***
+
+Programming Language: Java SE
+
+Database: MySQL 8.0+
+
+Connectivity: JDBC (Java Database Connectivity)
+
+Development Tools:
+
+MySQL Workbench / Command Line Client
 
 JDK 8 or above
 
-MySQL Server (8.0 recommended)
+IDE: VS Code, IntelliJ IDEA, or Eclipse
+---
+***4. Prerequisites***
 
-MySQL Workbench or Command Line Client
+Before running the project, ensure you have:
 
-IDE/Text Editor (VS Code, IntelliJ IDEA, Eclipse)
+Basic knowledge of Java (OOP, Exception Handling, Loops, Conditionals)
 
-MySQL Connector/J (JDBC Driver)
+Understanding of JDBC for database connectivity
 
-3.Uses / Applications
+Familiarity with SQL (DDL, DML) commands
+---
+***5. System Workflow***
+
+Register or Login using email and password.
+
+If you don’t have a bank account, create one.
+
+Once logged in:
+
+Debit or Credit money.
+
+Transfer funds between accounts.
+
+Check balance using security PIN.
+
+Logout when done.
+---
+***6. Uses / Applications***
 
 The Banking System can be used in:
 
 Banking Institutions
 
-To manage user accounts, deposits, withdrawals, and transfers
+Manage user accounts, deposits, withdrawals, and transfers.
 
-Ensures secure transactions with PIN authentication
+Ensure secure transactions with PIN authentication.
 
 Fintech Startups
 
-As a backend system for online banking applications
+As a backend system for online banking applications.
 
 Learning & Academic Projects
 
-Ideal for demonstrating transaction management (commit/rollback)
+Ideal for demonstrating transaction management (commit/rollback).
 
-Explains HAS-A relationship between classes (User, Accounts, AccountsManager)
+Explains HAS-A relationship between classes (User, Accounts, AccountsManager).
