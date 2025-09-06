@@ -1,4 +1,4 @@
-*** Banking System using JDBC and MySQL***
+# **Banking System using JDBC and MySQL** #
 ---
 ***1. Project Overview***
 
@@ -6,17 +6,17 @@ The Banking System is a Java-based console application designed to manage core b
 
 This system supports:
 
-User registration
+* User registration
 
-Login
+* Login
 
-Account creation
+* Account creation
 
-Debit & Credit transactions
+* Debit & Credit transactions
 
-Money transfer
+* Money transfer
 
-Balance inquiry
+* Balance inquiry
 
 It demonstrates the practical implementation of CRUD (Create, Read, Update, Delete) operations.
 ---
@@ -28,78 +28,78 @@ Account Management – Create new bank accounts linked to email.
 
 Money Transactions:
 
-Debit money
+1. Debit money
 
-Credit money
+2. Credit money
 
-Transfer money between accounts
+3. Transfer money between accounts
 
-Balance Inquiry with security PIN verification.
+4. Balance Inquiry with security PIN verification.
 
-Secure Transactions using JDBC transactions (commit/rollback).
+5. ecure Transactions using JDBC transactions (commit/rollback).
 
-Auto-generated Account Numbers with custom prefix.
+6. Auto-generated Account Numbers with custom prefix.
 
-Menu-driven Console Interface for ease of use.
+7. Menu-driven Console Interface for ease of use.
 ---
 ***3. Technology Stack***
 
-Programming Language: Java SE
+* Programming Language: Java SE
 
-Database: MySQL 8.0+
+* Database: MySQL 8.0+
 
-Connectivity: JDBC (Java Database Connectivity)
+* Connectivity: JDBC (Java Database Connectivity)
 
-Development Tools:
+* Development Tools:
 
-MySQL Workbench / Command Line Client
+* MySQL Workbench / Command Line Client
 
-JDK 8 or above
+* JDK 8 or above
 
-IDE: VS Code, IntelliJ IDEA, or Eclipse
+* IDE: VS Code, IntelliJ IDEA, or Eclipse
 ---
 ***4. Prerequisites***
 
 Before running the project, ensure you have:
 
-Basic knowledge of Java (OOP, Exception Handling, Loops, Conditionals)
+* Basic knowledge of Java (OOP, Exception Handling, Loops, Conditionals)
 
-Understanding of JDBC for database connectivity
+* Understanding of JDBC for database connectivity
 
-Familiarity with SQL (DDL, DML) commands
+* Familiarity with SQL (DDL, DML) commands
 ---
 ***5. System Workflow***
 
-Register or Login using email and password.
+1. Register or Login using email and password.
 
-If you don’t have a bank account, create one.
+2. If you don’t have a bank account, create one.
 
 Once logged in:
 
-Debit or Credit money.
+* Debit or Credit money.
 
-Transfer funds between accounts.
+* Transfer funds between accounts.
 
-Check balance using security PIN.
+* Check balance using security PIN.
 
-Logout when done.
+* Logout when done.
 ---
 ***6. Uses / Applications***
 
 The Banking System can be used in:
 
-Banking Institutions
+1. Banking Institutions
 
-Manage user accounts, deposits, withdrawals, and transfers.
+* Manage user accounts, deposits, withdrawals, and transfers.
 
-Ensure secure transactions with PIN authentication.
+* Ensure secure transactions with PIN authentication.
 
-Fintech Startups
+2. Fintech Startups
 
-As a backend system for online banking applications.
+* As a backend system for online banking applications.
 
-Learning & Academic Projects
+3. Learning & Academic Projects
 
-Ideal for demonstrating transaction management (commit/rollback).
+* Ideal for demonstrating transaction management (commit/rollback).
 
-Explains HAS-A relationship between classes (User, Accounts, AccountsManager).
+* Explains HAS-A relationship between classes (User, Accounts, AccountsManager).
